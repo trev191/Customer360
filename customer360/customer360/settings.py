@@ -124,7 +124,7 @@ STATIC_URL = 'static/'
 
 # For FileSytemFinder finder to traverse for static files
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static/")
+    os.path.join(BASE_DIR, "static/"),
 )
 
 # Default primary key field type
