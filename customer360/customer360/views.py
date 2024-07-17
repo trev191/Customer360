@@ -50,7 +50,7 @@ def interact(request, cid):
         interaction = Interaction.objects.create(
             customer=customer,
             channel=channel,
-            direction=directoin,
+            direction=direction,
             summary=summary,
         )
         interaction.save()
